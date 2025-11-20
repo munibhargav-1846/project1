@@ -2,7 +2,7 @@ Abstract
 
 The Venue Management System is a simple, terminal-based application developed in C for managing venue records efficiently. The system provides fundamental functionalities including adding new venue details, searching for venues by ID or name, updating existing records, and deleting entries when necessary. All venue information is stored persistently in a binary .dat file, ensuring that data remains available across multiple sessions. Designed for ease of use, the program offers a menu-driven interface suitable for beginners and small-scale event management setups. This project demonstrates essential concepts of file handling, data structures, and control flow in C, providing a practical solution for managing venue data in a lightweight and accessible format.
 
-Features of the Program
+FEATURES OF THE PROGRAM
 
 Add new venue records with details (venue name, location, capacity, contact info, availability, etc.)
 
@@ -24,7 +24,8 @@ Automatically creates the data file if it doesn’t exist
 
 Basic error handling for invalid input and missing files
 
-Technical Requirements
+TECHNICAL REQUIREMENTS
+
 1. System Requirements
 
 Operating System: Windows / Linux / macOS
@@ -73,7 +74,8 @@ Recommended flag:
 
 -Wall
 
-Functional Requirements
+FUNCTIONAL REQUIREMENTS
+
 1. User Interface
 
 Fully terminal-based interface
@@ -135,7 +137,8 @@ Displays appropriate messages for actions
 
 Allows smooth navigation between operations
 
-How to Run the Program
+HOW TO RUN THE PROGRAM
+
 1. Compile the Program
 
 Open your terminal inside the project folder and run:
@@ -143,10 +146,13 @@ Open your terminal inside the project folder and run:
 gcc venue_management.c -o venue_management
 
 2. Run the Executable
+
 Linux/macOS
+
 ./venue_management
 
-Windows
+WINDOWS
+
 venue_management.exe
 
 3. Data File
@@ -158,18 +164,34 @@ venues.dat
 
 All venue records are stored and retrieved from this file
 
-Screenshots (Expected Outputs)
+SCREENSHORTS (Expected Outputs)
 
 Main Menu
 
+<img width="320" height="141" alt="Screenshot 2025-11-20 163153" src="https://github.com/user-attachments/assets/94a0d793-ab7c-4709-8856-87e78a6f1412" />
+
+
 Add New Venue
+
+<img width="339" height="169" alt="Screenshot 2025-11-20 163207" src="https://github.com/user-attachments/assets/aaad8987-62f5-4c03-af19-1e7d4d51de45" />
+
 
 View All Venues
 
+<img width="296" height="153" alt="Screenshot 2025-11-20 163216" src="https://github.com/user-attachments/assets/99086fa6-f716-4776-beab-840ee8e75371" />
+
+
 Search Venue
 
-Update Venue
+<img width="428" height="189" alt="Screenshot 2025-11-20 163224" src="https://github.com/user-attachments/assets/631135c7-071c-4535-a78d-a0d91fe959b0" />
+
 
 Delete Venue
 
+<img width="441" height="133" alt="Screenshot 2025-11-20 163249" src="https://github.com/user-attachments/assets/8960f4af-90eb-481f-98f4-b0f6599e1d9c" />
+
+
 Exit Screen
+
+<img width="595" height="60" alt="Screenshot 2025-11-20 163316" src="https://github.com/user-attachments/assets/de91bb82-c3cc-4c7c-b679-bc2865e0a073" />
+
